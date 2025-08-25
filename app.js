@@ -49,9 +49,9 @@ function checkQuadrant(x, y) {
     } else if (x === 0 && y === 0) {
         return "Origin";
     } else if (x === 0 && y !== 0) {
-        return "X-axis";
-    } else if (x !== 0 && y === 0) {
         return "Y-axis";
+    } else if (x !== 0 && y === 0) {
+        return "X-axis";
     }
 }
 
